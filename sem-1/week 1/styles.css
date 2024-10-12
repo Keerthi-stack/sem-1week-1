@@ -1,0 +1,54 @@
+/* Universal selector */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Grouping selector for all headings */
+h1, h2 {
+    margin-bottom: 10px;
+}
+
+/* Header styling */
+header {
+    background-color: gray;
+    color: red;
+    padding: 1rem;
+    text-align: center;
+}
+
+/* Main content styling */
+main {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1rem;
+}
+
+/* Article styling */
+article {
+    margin-bottom: 2rem;
+    padding: 1rem;
+    border: 1px solid green;
+    border-radius: 8px;
+}
+
+article h2 {
+    color: blue;
+}
+
+article p {
+    margin: 0.5rem 0;
+}
+
+/* Footer styling */
+footer {
+    background-color: palevioletred;
+    color: gold;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
